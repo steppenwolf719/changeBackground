@@ -2,46 +2,32 @@
     <form>
 
 
-            <select name=pco onChange="document.bgColor=(this.form.pco.value)">
-                <option value=black>black</option>
-                <option value=blue>blue</option>
-                <option value=brown>brown</option>
-                <option value=gold>gold</option>
-                <option value=gray>gray</option>
-                <option value=green>green</option>
-                <option value=navy>navy</option>
-                <option value=orange>orange</option>
-                <option value=pink>pink</option>
-                <option value=purple>purple</option>
-                <option value=red>red</option>
-                <option value=rosybrown>rosybrown</option>
-                <option value=royalblue>royalblue</option>
-                <option value=salmon>salmon</option>
-                <option value=sandybrown>sandybrown</option>
-                <option value=silver>silver</option>
-                <option value=skyblue>skyblue</option>
-                <option value=snow>snow</option>
-                <option value=violet>violet</option>
-                <option value=white>white</option>
-                <option value=yellow>yellow</option>
+            <select name=pco>
+                <option value=black>Black</option>
+                <option value=blue>Blue</option>
+                <option value=brown>Brown</option>
+                <option value=gold>Gold</option>
+                <option value=gray>Gray</option>
+                <option value=green>Green</option>
+                <option value=navy>Navy</option>
+                <option value=orange>Orange</option>
+                <option value=pink>Pink</option>
+                <option value=purple>Purple</option>
+                <option value=red>Red</option>
+                <option value=silver>Silver</option>
+                <option value=skyblue>Skyblue</option>
+                <option value=snow>Snow</option>
+                <option value=violet>Violet</option>
+                <option value=white>White</option>
+                <option value=yellow>Yellow</option>
             </select>
 
-        <input type="button" value="Colorir" onclick="document.bgColor=(this.form.color.value)"> 
+        <input type="button" value="Colorir" onclick="document.bgColor=(this.form.pco.value)"> 
+        
+        <input type="button" value="Colorir" onclick="document.bgColor=(pco.violet)"> //problems here, i need a reset button.
 
-        <input type="reset" name="cancel" value="Resetar" onclick="option.white">
 
     </form>
+    
 </center>
-
-<form>
-    <div class="controls">
-
-        <label for="id">User ID:</label>
-        <input type="text" id="id" name="id" />
-
-        <input type="reset" value="Reset">
-        <input type="submit" value="Submit">
-
-    </div>
-</form>
         
